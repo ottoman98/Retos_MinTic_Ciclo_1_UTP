@@ -3,16 +3,7 @@ def AutoPartes(ventas):
     object_array = []
 
     for x in ventas:
-        obj = {
-            'IdProducto': None,
-            'dProducto': None,
-            'pnProducto': None,
-            'cvProducto': None,
-            'sProducto': None,
-            'nComprador': None,
-            'cComprador': None,
-            'fVenta': None,
-        }
+        obj = {     }
         obj['IdProducto'] = x[0]
         obj['dProducto'] = x[1]
         obj['pnProducto'] = x[2]
